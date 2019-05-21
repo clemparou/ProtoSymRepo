@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% form_theme formProjet 'bootstrap_4_layout.html.twig' %}
+
+{% block body%}
+	{% if editMode %}
+			<h1>Modification du projet</h1>
+		{% else %}
+			<h1>Création d'un projet</h1>
+		{% endif %}
+	
+
+	{{ form_start(formProjet) }}
+
+	{{ form_row(formProjet.title, {'attr' : {'placeholder':"Titre du Projet"}}) }}
+	{{ form_row(formProjet.category) }}
+	{{ form_row(formProjet.content, {'attr' : {'placeholder':"Contenu du Projet"}}) }}
+	{{ form_row(formProjet.image, {'attr' : {'placeholder':"URL de l'image"}}) }}
+
+
+	<button type="submit" class"btn btn-success">
+		{% if editMode %}
+			Enregistrer les modifications
+		{% else %}
+			Ajouter le projet
+		{% endif %}
+	</button>
+
+	{{ form_end(formProjet) }}
+
+{% endblock %}

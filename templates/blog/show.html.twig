@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	<projet>
+		<h2>{{ projet.title }}</h2>
+		<div class="metadata">Ecrit le {{ projet.createdAt | date('d/m/Y')}} à {{ projet.createdAt | date('H:i')}} dans la catégorie {{ projet.category.title }}</div>
+		<div class="content">
+			<img src="{{ projet.image }}" alt="">
+			{{ projet.content | raw }}
+		</div>
+	</projet>
+	<hr>
+	<section id="commentaires">
+		<h1>{{ projet.comments |length }} commentaires : </h1>
+		{% for comment in projet.comments %}
+			<div class="comment">
+				<div class="row">
+					<div class="col-3">
+						{{ comment.author }} (<small>{{comment.createdAt | date('d/m/Y à H:i') }}</small>)
+					</div>
+					<div class="col">
+						{{ comment.content | raw}}
+						
+					</div>
+						}
+				</div>
+				
+			</div>
+		{% endfor %}
+
+		{% if app.user %}
+		{{ form_start(commentForm) }}
+		{{ form_row(commentForm.author, {'attr' : {'placeholder' : 'Votre nom'}}) }}
+		{{ form_row(commentForm.content, {'attr' : {'placeholder' : 'Votre commentaire'}})}}
+		<button type="submit" class="btn btn-succes">Commenter !</button>
+		{{ form_end(commentForm) }}
+		{% else %}
+			<h2>Vous ne pouvez pas commenter sans être connecté</h2>
+			<a href="{{ path('security_login') }}" class="btn btn-primary">
+				Connexion
+			</a>
+		{% endif %}
+	</section>
+{% endblock %}
