@@ -147,6 +147,10 @@
         <source>Inscription.btn</source>
         <target state="translated">Inscription</target>
       </trans-unit>
+      <trans-unit id="mKWjrIq" resname="AdresseEmail">
+        <source>AdresseEmail</source>
+        <target state="translated">AdresseEmail...</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
