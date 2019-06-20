@@ -14,6 +14,7 @@ use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
 use Doctrine\Common\Persistence\ObjectManager;
+use Symfony\Component\Translation\Translator;
 
 
 class BlogController extends AbstractController
@@ -34,8 +35,7 @@ class BlogController extends AbstractController
      * @Route("/", name="home")
      */
     public function home(){
-    	return $this->render('blog/home.html.twig',[
-    		'title' => "Bienvenue"]);
+    	return $this->render('blog/home.html.twig');
     }
 
     /**

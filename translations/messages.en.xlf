@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
+  <file id="messages.en">
+    <unit id="7XACtDn" name="content">
+      <notes>
+        <note priority="1">src\Form\CommentType.php:14</note>
+        <note priority="1">src\Form\ProjetType.php:16</note>
+      </notes>
+      <segment>
+        <source>content</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="Y2SFhol" name="author">
+      <notes>
+        <note priority="1">src\Form\CommentType.php:14</note>
+      </notes>
+      <segment>
+        <source>author</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="YQXWzHa" name="image">
+      <notes>
+        <note priority="1">src\Form\ProjetType.php:16</note>
+      </notes>
+      <segment>
+        <source>image</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="7bLNO3T" name="category">
+      <notes>
+        <note priority="1">src\Form\ProjetType.php:16</note>
+      </notes>
+      <segment>
+        <source>category</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="qvIyBkY" name="title">
+      <notes>
+        <note priority="1">src\Form\ProjetType.php:16</note>
+      </notes>
+      <segment>
+        <source>title</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="elpRIi3" name="confirm_password">
+      <notes>
+        <note priority="1">src\Form\RegistrationType.php:15</note>
+      </notes>
+      <segment>
+        <source>confirm_password</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="XohImNo" name="password">
+      <notes>
+        <note priority="1">src\Form\RegistrationType.php:15</note>
+      </notes>
+      <segment>
+        <source>password</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="FveKfWM" name="username">
+      <notes>
+        <note priority="1">src\Form\RegistrationType.php:15</note>
+      </notes>
+      <segment>
+        <source>username</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="giREF.l" name="email">
+      <notes>
+        <note priority="1">src\Form\RegistrationType.php:15</note>
+      </notes>
+      <segment>
+        <source>email</source>
+        <target></target>
+      </segment>
+    </unit>
+    <unit id="1YpGUUQ" name="blog.title">
+      <notes>
+        <note priority="1">templates\blog\home.html.twig:4</note>
+      </notes>
+      <segment>
+        <source>blog.title</source>
+        <target>Titre du blog</target>
+      </segment>
+    </unit>
+    <unit id="FsGwrEs" name="written.the">
+      <notes>
+        <note priority="1">obsolete</note>
+      </notes>
+      <segment>
+        <source>written.the</source>
+        <target>Ecrit le</target>
+      </segment>
+    </unit>
+    <unit id="sda5G2f" name="at">
+      <notes>
+        <note priority="1">obsolete</note>
+      </notes>
+      <segment>
+        <source>at</source>
+        <target>à</target>
+      </segment>
+    </unit>
+    <unit id="xZSdsFD" name="readmore.btn">
+      <notes>
+        <note priority="1">obsolete</note>
+      </notes>
+      <segment>
+        <source>readmore.btn</source>
+        <target>Lire la suite</target>
+      </segment>
+    </unit>
+    <unit id="eGS33oN" name="paragraphe.presentation.1">
+      <segment>
+        <source>paragraphe.presentation.1</source>
+        <target state="translated">Paragraphe de présentation numéro 1 </target>
+      </segment>
+    </unit>
+    <unit id="SdAmiwW" name="paragraphe.presentation.2">
+      <segment>
+        <source>paragraphe.presentation.2</source>
+        <target state="translated">Paragraphe de présentation numéro 2</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

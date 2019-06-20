@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello BlogController!{% endblock %}
+{% block title %}{{ 'blog.title'|trans }}{% endblock %}
 
 {% block body %}
 
@@ -9,11 +9,11 @@
 	{% for projet in projets %}
 		<projet>
 			<h2>{{ projet.title }}</h2>
-			<div class="metadata">Ecrit le {{ projet.createdAt | date('d/m/Y') }} à {{ projet.createdAt | date('H:i') }} dans la catégorie Politique</div>
+			<div class="metadata">{{'written_the' | trans}} {{ projet.createdAt | date('d/m/Y') }} à {{ projet.createdAt | date('H:i') }}</div>
 			<div class="content">
 				<img src="{{ projet.image }}" alt="">
 				{{ projet.content | raw }}
-				<a href="{{ path('blog_show', {'id': projet.id}) }}" class="btn btn-primary">Lire la suite</a>
+				<a href="{{ path('blog_show', {'id': projet.id}) }}" class="btn btn-primary">{{ 'written.the'|trans }}</a>
 			</div>
 		</projet>
 	{% endfor %}
