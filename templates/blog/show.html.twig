@@ -3,7 +3,7 @@
 {% block body %}
 	<projet>
 		<h2>{{ projet.title }}</h2>
-		<div class="metadata">{{'witten.the' | trans }} {{ projet.createdAt | date('d/m/Y')}} {{ 'at' | trans }} {{ projet.createdAt | date('H:i')}} {{ 'in.the.category'|trans }} {{ projet.category.title }}</div>
+		<div class="metadata">{{'written.the' | trans }} {{ projet.createdAt | date('d/m/Y')}} {{ 'at' | trans }} {{ projet.createdAt | date('H:i')}} {{ 'in.the.category'|trans }} {{ projet.category.title }}</div>
 		<div class="content">
 			<img src="{{ projet.image }}" alt="">
 			{{ projet.content | raw }}

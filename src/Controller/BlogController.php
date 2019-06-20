@@ -3,18 +3,20 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Projet;
 use App\Entity\Comment;
 use App\Repository\ProjetRepository;
 use App\Form\ProjetType;
 use App\Form\CommentType;
+use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\HttpFoundation\Request;
-use Doctrine\Common\Persistence\ObjectManager;
 use Symfony\Component\Translation\Translator;
+use Symfony\Component\Translation\TranslatorInterface;
+use Doctrine\Common\Persistence\ObjectManager;
+
 
 
 class BlogController extends AbstractController
@@ -34,8 +36,11 @@ class BlogController extends AbstractController
     /**
      * @Route("/", name="home")
      */
-    public function home(){
-    	return $this->render('blog/home.html.twig');
+    public function home(TranslatorInterface $translator){
+        $blogTitle = $translator->trans('blog.title', [], null, 'en');
+    	return $this->render('blog/home.html.twig', [
+            'blogtitle' => $blogTitle
+        ]);
     }
 
     /**

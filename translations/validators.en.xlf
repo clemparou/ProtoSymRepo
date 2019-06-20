@@ -1,50 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
-  <file id="validators.en">
-    <unit id="SvT1x17" name="Le titre est trop long !">
-      <notes>
-        <note priority="1">src\Entity\Projet.php:0</note>
-      </notes>
-      <segment>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="SvT1x17" resname="Le titre est trop long !">
         <source>Le titre est trop long !</source>
         <target></target>
-      </segment>
-    </unit>
-    <unit id="HzGNQXI" name="Le titre est trop court !">
-      <notes>
         <note priority="1">src\Entity\Projet.php:0</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="HzGNQXI" resname="Le titre est trop court !">
         <source>Le titre est trop court !</source>
         <target></target>
-      </segment>
-    </unit>
-    <unit id="1G89nIM" name="L'email que vous avez indiqué est déjà utilisé !">
-      <notes>
-        <note priority="1">src\Entity\User.php:0</note>
-      </notes>
-      <segment>
+        <note priority="1">src\Entity\Projet.php:0</note>
+      </trans-unit>
+      <trans-unit id="1G89nIM" resname="L'email que vous avez indiqué est déjà utilisé !">
         <source>L'email que vous avez indiqué est déjà utilisé !</source>
         <target></target>
-      </segment>
-    </unit>
-    <unit id="TL4niI1" name="Votre mot de passe doit faire minimum 8 caractères">
-      <notes>
         <note priority="1">src\Entity\User.php:0</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="TL4niI1" resname="Votre mot de passe doit faire minimum 8 caractères">
         <source>Votre mot de passe doit faire minimum 8 caractères</source>
         <target></target>
-      </segment>
-    </unit>
-    <unit id="mKf5XL8" name="Vous n'avez pas tapé le même mot de passe">
-      <notes>
         <note priority="1">src\Entity\User.php:0</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="mKf5XL8" resname="Vous n'avez pas tapé le même mot de passe">
         <source>Vous n'avez pas tapé le même mot de passe</source>
         <target></target>
-      </segment>
-    </unit>
+        <note priority="1">src\Entity\User.php:0</note>
+      </trans-unit>
+    </body>
   </file>
 </xliff>

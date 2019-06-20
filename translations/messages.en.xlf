@@ -1,135 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0" srcLang="en" trgLang="en">
-  <file id="messages.en">
-    <unit id="7XACtDn" name="content">
-      <notes>
-        <note priority="1">src\Form\CommentType.php:14</note>
-        <note priority="1">src\Form\ProjetType.php:16</note>
-      </notes>
-      <segment>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="7XACtDn" resname="content">
         <source>content</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="Y2SFhol" name="author">
-      <notes>
+        <target/>
         <note priority="1">src\Form\CommentType.php:14</note>
-      </notes>
-      <segment>
+        <note priority="1">src\Form\ProjetType.php:16</note>
+      </trans-unit>
+      <trans-unit id="Y2SFhol" resname="author">
         <source>author</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="YQXWzHa" name="image">
-      <notes>
-        <note priority="1">src\Form\ProjetType.php:16</note>
-      </notes>
-      <segment>
+        <target/>
+        <note priority="1">src\Form\CommentType.php:14</note>
+      </trans-unit>
+      <trans-unit id="YQXWzHa" resname="image">
         <source>image</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="7bLNO3T" name="category">
-      <notes>
+        <target/>
         <note priority="1">src\Form\ProjetType.php:16</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="7bLNO3T" resname="category">
         <source>category</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="qvIyBkY" name="title">
-      <notes>
+        <target/>
         <note priority="1">src\Form\ProjetType.php:16</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="qvIyBkY" resname="title">
         <source>title</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="elpRIi3" name="confirm_password">
-      <notes>
-        <note priority="1">src\Form\RegistrationType.php:15</note>
-      </notes>
-      <segment>
+        <target/>
+        <note priority="1">src\Form\ProjetType.php:16</note>
+      </trans-unit>
+      <trans-unit id="elpRIi3" resname="confirm_password">
         <source>confirm_password</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="XohImNo" name="password">
-      <notes>
+        <target/>
         <note priority="1">src\Form\RegistrationType.php:15</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="XohImNo" resname="password">
         <source>password</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="FveKfWM" name="username">
-      <notes>
+        <target/>
         <note priority="1">src\Form\RegistrationType.php:15</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="FveKfWM" resname="username">
         <source>username</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="giREF.l" name="email">
-      <notes>
+        <target/>
         <note priority="1">src\Form\RegistrationType.php:15</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="giREF.l" resname="email">
         <source>email</source>
-        <target></target>
-      </segment>
-    </unit>
-    <unit id="1YpGUUQ" name="blog.title">
-      <notes>
-        <note priority="1">templates\blog\home.html.twig:4</note>
-      </notes>
-      <segment>
+        <target/>
+        <note priority="1">src\Form\RegistrationType.php:15</note>
+      </trans-unit>
+      <trans-unit id="1YpGUUQ" resname="blog.title">
         <source>blog.title</source>
         <target>Titre du blog</target>
-      </segment>
-    </unit>
-    <unit id="FsGwrEs" name="written.the">
-      <notes>
-        <note priority="1">obsolete</note>
-      </notes>
-      <segment>
+        <note priority="1">templates\blog\home.html.twig:4</note>
+      </trans-unit>
+      <trans-unit id="uXy6FCP" resname="written.the">
         <source>written.the</source>
         <target>Ecrit le</target>
-      </segment>
-    </unit>
-    <unit id="sda5G2f" name="at">
-      <notes>
         <note priority="1">obsolete</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="sda5G2f" resname="at">
         <source>at</source>
         <target>à</target>
-      </segment>
-    </unit>
-    <unit id="xZSdsFD" name="readmore.btn">
-      <notes>
         <note priority="1">obsolete</note>
-      </notes>
-      <segment>
+      </trans-unit>
+      <trans-unit id="xZSdsFD" resname="readmore.btn">
         <source>readmore.btn</source>
         <target>Lire la suite</target>
-      </segment>
-    </unit>
-    <unit id="eGS33oN" name="paragraphe.presentation.1">
-      <segment>
+        <note priority="1">obsolete</note>
+      </trans-unit>
+      <trans-unit id="eGS33oN" resname="paragraphe.presentation.1">
         <source>paragraphe.presentation.1</source>
         <target state="translated">Paragraphe de présentation numéro 1 </target>
-      </segment>
-    </unit>
-    <unit id="SdAmiwW" name="paragraphe.presentation.2">
-      <segment>
+      </trans-unit>
+      <trans-unit id="SdAmiwW" resname="paragraphe.presentation.2">
         <source>paragraphe.presentation.2</source>
         <target state="translated">Paragraphe de présentation numéro 2</target>
-      </segment>
-    </unit>
+      </trans-unit>
+      <trans-unit id="Da1htjG" resname="Projets">
+        <source>Projets</source>
+        <target state="translated">Projets</target>
+      </trans-unit>
+      <trans-unit id="Fa70DzN" resname="Créer un projet">
+        <source>Créer un projet</source>
+        <target state="translated">Créer un projet</target>
+      </trans-unit>
+      <trans-unit id="YdaVBBA" resname="Connexion">
+        <source>Connexion</source>
+        <target state="translated">Connexion</target>
+      </trans-unit>
+      <trans-unit id="_1_eksG" resname="Déconnexion">
+        <source>Déconnexion</source>
+        <target state="translated">Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="4PIQU1o" resname="Modification du projet">
+        <source>Modification du projet</source>
+        <target state="translated">Modification du projet</target>
+      </trans-unit>
+      <trans-unit id="RZUfasG" resname="Enregistrer les modifications">
+        <source>Enregistrer les modifications</source>
+        <target state="translated">Enregistrer les modifications</target>
+      </trans-unit>
+      <trans-unit id="3lqnUHw" resname="Ajouter le projet">
+        <source>Ajouter le projet</source>
+        <target state="translated">Ajouter le projet</target>
+      </trans-unit>
+      <trans-unit id="e2fVVyW" resname="witten.the">
+        <source>witten.the</source>
+        <target state="needs-translation"/>
+      </trans-unit>
+      <trans-unit id="lTD7cIh" resname="in.the.category">
+        <source>in.the.category</source>
+        <target state="translated">dans la catégorie</target>
+      </trans-unit>
+      <trans-unit id="EI8yWgH" resname="commentaires">
+        <source>commentaires</source>
+        <target state="translated">commentaires</target>
+      </trans-unit>
+      <trans-unit id="7IAkYTT" resname="Commenter.btn">
+        <source>Commenter.btn</source>
+        <target state="translated">Commenter</target>
+      </trans-unit>
+      <trans-unit id="CtBG8vt" resname="Vous ne pouvez pas commenter sans être connecté">
+        <source>Vous ne pouvez pas commenter sans être connecté</source>
+        <target state="translated">Vous ne pouvez pas commenter sans être connecté !</target>
+      </trans-unit>
+      <trans-unit id="U2a6tl8" resname="Connexion.btn">
+        <source>Connexion.btn</source>
+        <target state="translated">Connexion</target>
+      </trans-unit>
+      <trans-unit id="VKiCT0f" resname="security.title">
+        <source>security.title</source>
+        <target state="translated">security.title</target>
+      </trans-unit>
+      <trans-unit id="Kd99AFq" resname="login.title">
+        <source>login.title</source>
+        <target state="translated">Connexion</target>
+      </trans-unit>
+      <trans-unit id="REeLx94" resname="inscription.title">
+        <source>inscription.title</source>
+        <target state="translated">inscription</target>
+      </trans-unit>
+      <trans-unit id="ELd0XCU" resname="Inscription.btn">
+        <source>Inscription.btn</source>
+        <target state="translated">Inscription</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>

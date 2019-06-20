@@ -3,9 +3,10 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<h1>{{ 'blog.title'|trans }}</h1>
+<h1>{% trans %}blog.title{% endtrans %}</h1>
 
 <p>{% trans %}paragraphe.presentation.1{% endtrans %}</p>
 <p>{{ 'paragraphe.presentation.2' | trans }}</p>
 
 {% endblock %}
+
